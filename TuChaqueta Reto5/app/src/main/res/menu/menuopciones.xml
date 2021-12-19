@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:icon="@drawable/iconotc_background">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/favoritos"
+        android:icon="@drawable/favoritos"
+        android:title="Favoritos"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/compartir"
+        android:icon="@drawable/compartir"
+        android:title="Compartir"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/productos"
+        android:title="Productos" />
+    <item
+        android:id="@+id/servicios"
+        android:title="Servicios" />
+    <item
+        android:id="@+id/sucursales"
+        android:title="Sucursales" />
+</menu>
